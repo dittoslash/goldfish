@@ -1,10 +1,10 @@
 var Player = function() {
 	Being.call(this, {ch:"@", fg:Game.GOLD, description:"you"});
 	
-	this._stats.maxhp = 20;
+	this._stats.maxhp = 50;
 	this._stats.hp = this._stats.maxhp;
 	
-	this._stats.maxo2 = 20;
+	this._stats.maxo2 = 50;
 	this._stats.o2 = this._stats.maxo2;
 
 	this._stats.attack += 1;
